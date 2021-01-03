@@ -1,5 +1,3 @@
-# nodejs-boilerplate
-nodejs boilerplate
 <h2> Node, Express, Mongo Boilerplate </h2>
 
 Get Started
