@@ -11,7 +11,6 @@
 - cd Node_Express_Mongo_boilerplate
 - go to config -> config.env (edit it with your cloud atlas uri information)
 
-
 ## Install Dependancies
 ```
 npm install
