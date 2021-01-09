@@ -1,22 +1,38 @@
-<h2> Node, Express, Mongo Boilerplate </h2>
+# Node, Express, Mongo Boilerplate
 
-Get Started
+> Boilerplate for the Node, Express, Mongo.
+## Prerequisites
+- Node.js
+- NPM - Node package manager
+- MongoDB - Cloud Atlas(URI)
 
-1. Prerequisites </br>
-Node.js </br>
-NPM - Node package manager </br>
-MongoDB - Cloud Atlas(URI) 
+## Setting UP Environment
+- git clone https://github.com/ezioguga/nodejs-boilerplate.git
+- cd Node_Express_Mongo_boilerplate
+- go to config -> config.env (edit it with your cloud atlas uri information)
 
-2. Installation
-On the command prompt run the following commands:
 
- $ git clone https://github.com/ezioguga/nodejs-boilerplate.git </br> </br>
- $ cd Node_Express_Mongo_boilerplate </br>
- $ go to config -> config.env (edit it with your cloud atlas uri information) </br>
- $ npm install </br>
- $ npm run dev
- 
-Finally, start and build the application:
+## Install Dependancies
+```
+npm install
+```
+## Run App
+```
+# Run in dev mode
+npm run dev
 
-$ npm run dev (For development) </br>
-$ npm start (For production)
+# Run in prod mode
+npm start
+```
+## Added Basic Security Packages to Improve API Security
+```
+1. express-mongo-sanitize - To Prevent NoSQL Injections.
+2. helmet - Security Headers
+3. xss-clean - XSS Protection
+4. express-rate-limit - To Limit the No of Reqs
+5. hpp - To Prevent HTTP Parameter Pollution
+```
+For Detailed Information Visit: 
+[Click Me](https://medium.com/javascript-in-plain-english/common-nodejs-mongo-api-security-problems-and-how-to-overcome-them-548d0137984c)
+- Version: 1.0.1
+- License: MIT
